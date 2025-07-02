@@ -1,0 +1,32 @@
+.hotel-layout {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.selected-rooms {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.layout-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.floor-row {
+  display: flex;
+  gap: 8px;
+}

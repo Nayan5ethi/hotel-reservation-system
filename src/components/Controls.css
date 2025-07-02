@@ -1,0 +1,38 @@
+.controls {
+  margin-bottom: 16px;
+}
+
+.controls label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #4a5568; /* Gray */
+}
+
+.controls input {
+  border: 1px solid #d2d6dc; /* Gray */
+  border-radius: 4px;
+  padding: 8px 12px;
+  width: 100%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  outline: none;
+}
+
+.controls input:focus {
+  border-color: #4299e1; /* Blue */
+  box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+}
+
+.controls .error {
+  color: #e53e3e; /* Red */
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+.controls .buttons {
+  margin-top: 16px;
+}
+
+.controls .buttons button {
+  margin-left: 8px;
+}

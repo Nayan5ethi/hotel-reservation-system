@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Controls from "./components/Controls";
 import HotelLayout from "./components/HotelLayout";
 import { calculateTravelTime, getBestRooms } from "./utils/utils";
